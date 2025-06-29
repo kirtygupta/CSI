@@ -1,0 +1,17 @@
+House Price Prediction
+
+# Goal: Predict home prices in Ames, Iowa, using 79 features (size, quality, location, etc.).
+
+# Approach:
+
+      Preprocessing: Log-transformed SalePrice, handled missing data, encoded categorical variables.
+      Feature Engineering: Created TotalSF (total area) and Age (house age).
+      Modeling: Tested Random Forest, Gradient Boosting, XGBoost (best performance).
+      Evaluation: Optimized for RMSE (log scale).
+
+# Key Findings:
+
+    Strongest predictors: OverallQual, GrLivArea, Neighborhood.
+    Best Model: XGBoost (~0.12 RMSE).
+
+# Submission: Predicted prices in submission.csv.
