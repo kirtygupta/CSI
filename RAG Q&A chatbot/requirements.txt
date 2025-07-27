@@ -1,8 +1,10 @@
 langchain
 langchain-community
+langchain-huggingface
 faiss-cpu
 sentence-transformers
 openai
 pandas
 transformers
 torch
+ipywidgets
